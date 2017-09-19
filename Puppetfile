@@ -15,3 +15,8 @@ mod "puppetlabs/concat",      '2.1.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+# PE Metrics Module
+mod 'pe_metric_curl_cron_jobs',
+  :git    => 'https://github.com/npwalker/pe_metric_curl_cron_jobs',
+  :branch => 'master'
